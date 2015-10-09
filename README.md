@@ -8,6 +8,7 @@ This (WP API - developed by Oneway Media VN) is an attempt to use wordpress as a
 - Create **/core** and **/api**.
 - Install *Worpress (https://wordpress.org/)* to **/core**.
 - Load the API to **/api**. Set it up accordingly.
+- Create **index.php** in *root*: **header('Location: core');**
 
 # WORDPRESS
 - Create a MySQL database.
