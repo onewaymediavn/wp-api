@@ -1,0 +1,18 @@
+{
+    "name": "onewaymedia/api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "onewaymediavn",
+            "email": "onewaymediavn@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "slim/slim": "^2.6"
+    },
+	"autoload": {
+		"classmap": ["app/models/"],
+		"files": ["app/functions.php", "app/middlewares.php", "app/routes.php"]
+    }
+}
